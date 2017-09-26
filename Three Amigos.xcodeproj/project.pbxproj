@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		EB52A4F91F7A918D00B92B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB52A4F81F7A918D00B92B42 /* AppDelegate.swift */; };
-		EB52A4FB1F7A918D00B92B42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB52A4FA1F7A918D00B92B42 /* ViewController.swift */; };
 		EB52A4FE1F7A918D00B92B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB52A4FC1F7A918D00B92B42 /* Main.storyboard */; };
-		EB52A5001F7A918D00B92B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB52A4FF1F7A918D00B92B42 /* Assets.xcassets */; };
 		EB52A5031F7A918D00B92B42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB52A5011F7A918D00B92B42 /* LaunchScreen.storyboard */; };
+		EB52A50D1F7A989A00B92B42 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB52A50C1F7A989A00B92B42 /* assets.xcassets */; };
+		EB52A50F1F7A9A7600B92B42 /* MascotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB52A50E1F7A9A7600B92B42 /* MascotViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB52A4F51F7A918D00B92B42 /* Three Amigos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Amigos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB52A4F81F7A918D00B92B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB52A4FA1F7A918D00B92B42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB52A4FD1F7A918D00B92B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EB52A4FF1F7A918D00B92B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB52A5021F7A918D00B92B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB52A5041F7A918D00B92B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB52A50C1F7A989A00B92B42 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
+		EB52A50E1F7A9A7600B92B42 /* MascotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MascotViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				EB52A4F81F7A918D00B92B42 /* AppDelegate.swift */,
-				EB52A4FA1F7A918D00B92B42 /* ViewController.swift */,
 				EB52A4FC1F7A918D00B92B42 /* Main.storyboard */,
-				EB52A4FF1F7A918D00B92B42 /* Assets.xcassets */,
 				EB52A5011F7A918D00B92B42 /* LaunchScreen.storyboard */,
+				EB52A50C1F7A989A00B92B42 /* assets.xcassets */,
 				EB52A5041F7A918D00B92B42 /* Info.plist */,
+				EB52A50E1F7A9A7600B92B42 /* MascotViewController.swift */,
 			);
 			path = "Three Amigos";
 			sourceTree = "<group>";
@@ -124,8 +124,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB52A5031F7A918D00B92B42 /* LaunchScreen.storyboard in Resources */,
-				EB52A5001F7A918D00B92B42 /* Assets.xcassets in Resources */,
 				EB52A4FE1F7A918D00B92B42 /* Main.storyboard in Resources */,
+				EB52A50D1F7A989A00B92B42 /* assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB52A4FB1F7A918D00B92B42 /* ViewController.swift in Sources */,
 				EB52A4F91F7A918D00B92B42 /* AppDelegate.swift in Sources */,
+				EB52A50F1F7A9A7600B92B42 /* MascotViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
