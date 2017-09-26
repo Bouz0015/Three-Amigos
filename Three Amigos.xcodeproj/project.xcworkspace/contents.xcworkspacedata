@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../../../../Downloads/Assets.xcassets">
+   </FileRef>
+   <FileRef
       location = "self:Three Amigos.xcodeproj">
    </FileRef>
 </Workspace>
